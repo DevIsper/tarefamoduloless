@@ -1,0 +1,17 @@
+{
+  "name": "tarefamoduloless",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,0 +1,18 @@
+// Centraliza elementos em flexbox
+.flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Padding padrão para seções
+.section-padding(@padding: 56px 0) {
+  padding: @padding;
+}
+
+// Media query mixin
+.media(@breakpoint, @rules) {
+  @media @breakpoint {
+    @rules();
+  }
+}
